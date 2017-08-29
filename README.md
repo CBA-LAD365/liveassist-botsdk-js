@@ -13,4 +13,4 @@ npm install @cafex/liveassist-botsdk-js
 
 ## Usage
 
-Please see the [Live Assist Knowledge Base](http://www.liveassistfor365.com/en/support/knowledge-base/chat-bots/bot-sdk-nodejs/) and the project site for the API description and examples.
+Please see the [Quickstart Guide](https://www.liveassistfor365.com/en/support/knowledge-base/chat-bots/bot-escalation-sdk-js-quickstart/) for instructions on how to start using the SDK. The [Live Assist Knowledge Base](https://www.liveassistfor365.com/en/support/knowledge-base/chat-bots/) provides further information and more advanced uses of the SDK.
