@@ -1,0 +1,31 @@
+{
+  "name": "liveassist-botsdk-js-example-full",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.10.2"
+  },
+  "description": "CafeX Boss Bot SDK Nodejs example",
+  "main": "app-callback.js",
+  "bin": {
+    "bot-liveassist-callback": "./app-callback.js",
+    "bot-liveassist-promise": "./app-promise.js"
+  },
+  "scripts": {
+    "start": "node ./app-callback.js",
+    "bot-liveassist-callback": "node ./app-callback.js",
+    "bot-liveassist-promise": "node ./app-promise.js",
+    "precontextServer": "node ./lib/genKeys",
+    "contextServer": "node ./lib/dummyContextServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cafex/liveassist-botsdk-js": "^1.0.0",
+    "botbuilder": "^3.7.0",
+    "jws": "^3.1.4",
+    "mkdirp": "^0.5.1",
+    "node-jose": "^0.9.4",
+    "pem": "^1.9.7",
+    "restify": "^4.3.0"
+  }
+}

@@ -1,0 +1,9 @@
+build/
+.env
+examples/
+.gitignore
+lifecycle.md
+.npmignore
+.nyc_output/
+test/
+.vscode

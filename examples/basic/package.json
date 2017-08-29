@@ -1,0 +1,23 @@
+{
+  "name": "liveassist-botsdk-js-example-basic",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.10.2"
+  },
+  "description": "CafeX Boss Bot SDK Nodejs example",
+  "main": "app.js",
+  "bin": {
+    "bot-liveassist": "./app.js"
+  },
+  "scripts": {
+    "start": "node ./app.js",
+    "bot-liveassist": "node ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cafex/liveassist-botsdk-js": "^1.0.0",
+    "botbuilder": "^3.7.0",
+    "restify": "^4.3.0"
+  }
+}
