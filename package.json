@@ -1,6 +1,6 @@
 {
   "name": "@cafex/liveassist-botsdk-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CaféX Live Assist Bot SDK",
   "main": "app.js",
   "scripts": {
