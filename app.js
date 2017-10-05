@@ -20,6 +20,8 @@ const configuredAppKey = process.env.LA_APP_KEY || '721c180b09eb463d9f3191c41762
 const configuredContextDataHost = process.env.LA_CTX_DATA_HOST;
 const configuredContextDataPath = process.env.LA_CTX_DATA_PATH || '/context-service/context';
 
+const DEFAULT_LANGUAGE = 'en-US';
+
 winston.level = process.env.LA_LOG_LEVEL || 'warn';
 
 const PHASE = {
@@ -380,7 +382,7 @@ const Chat = (function() {
     const chatRequestData = {
       request: {
         skill: requestChatSpec.skill,
-        agent: requestChatSpec.agent,
+        language: requestChatSpec.language || DEFAULT_LANGUAGE,
         preChatLines: processedTranscript,
       }
     };
