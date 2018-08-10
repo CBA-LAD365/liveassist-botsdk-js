@@ -13,4 +13,7 @@ npm install @cafex/liveassist-botsdk-js
 
 ## Usage
 
-Please see the [Quickstart Guide](https://www.liveassistfor365.com/en/support/knowledge-base/chat-bots/bot-escalation-sdk-js-quickstart/) for instructions on how to start using the SDK. The [Live Assist Knowledge Base](https://www.liveassistfor365.com/en/support/knowledge-base/chat-bots/) provides further information and more advanced uses of the SDK.
+Please see the [Quickstart Guide](https://support.liveassistfor365.com/hc/en-us/articles/360006117614) for instructions
+on how to start using the SDK in an Azure Web App Bot. The
+[Live Assist Knowledge Base](https://support.liveassistfor365.com/hc/en-us/sections/360001277654) provides further
+information and more advanced uses of the SDK.
