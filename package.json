@@ -19,10 +19,10 @@
     "url": "https://github.com/cafexcomms/liveassist-botsdk-js"
   },
   "devDependencies": {
-    "jsdoc": "^3.4.3",
+    "jsdoc": "^3.6.2",
     "mocha": "^5.2.0",
-    "nock": "^9.6.1",
-    "nyc": "^13.0.1"
+    "nock": "^10.0.6",
+    "nyc": "^14.1.1"
   },
   "nyc": {
     "report-dir": "./build/coverage"
