@@ -1,6 +1,6 @@
 {
   "name": "@cafex/liveassist-botsdk-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CaféX Live Assist Bot SDK",
   "main": "app.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "filesystem": "^1.0.1",
+    "lodash": "^4.17.14",
     "verror": "^1.10.0",
     "winston": "^2.3.1"
   },
@@ -19,7 +20,7 @@
     "url": "https://github.com/cafexcomms/liveassist-botsdk-js"
   },
   "devDependencies": {
-    "jsdoc": "^3.6.2",
+    "jsdoc": "^3.6.3",
     "mocha": "^5.2.0",
     "nock": "^10.0.6",
     "nyc": "^14.1.1"
